@@ -1,0 +1,42 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+}
+#nav--container{
+    background-color: whitesmoke;
+    display: flex;
+    box-shadow: 0 12px 7px grey;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav--title{
+    color: black;
+    font-size: 20px;
+}
+
+#body-container{
+    display: flex;
+    width: 100%;
+}
+
+#body--element{
+    border: 2px solid grey;
+    width: 100%;
+    margin: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px 5px grey;
+}
+
+#body--element-image{
+    float:left;
+    display: flex;
+    width: 20em;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+/* #body--element-title{
+
+} */
